@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+class Ship:
+    name = ""
+    load = 0
+    location = list()
+
+my_ship = Ship()
+
+print(my_ship.name)
+my_ship.name = "Prometheous"
+print(my_ship.name)
+print(my_ship.load)
+my_ship.load = 743
+print(my_ship.load)
+print(my_ship.location)
+my_ship.location = (23.2, 32.9)
+print(my_ship.location)
